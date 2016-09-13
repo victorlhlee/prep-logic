@@ -257,33 +257,23 @@ console.log(addedUp);
 /*Function - totalUnderWhatFor
 Write a function that takes an Array with any number of type Number and second variable called total. Return true if the sum of all values in the Array are less than total otherwise return false.*/
 
-//option 1 long version
-var arrNum = [1, 2, 3];
-var arrSum = 0;
-var sumUp = 8;
+
+var numArr = [1, 1, 1];
 
 function totalUnderWhatFor(num, total){
- for(var i = 0; i<num.length; i++){
-  if(arrSum +=num[i] < total){
-    return true;
-  }else{
-    return false;
-  }
+ var addUp = greatSummator(num);
+ if(addUp < total){
+  return true;
+ }else{
+  return false;
  }
 
 }
-console.log(totalUnderWhatFor(arrNum, sumUp));
 
-//option 2 
-function totalUnderWhatFor(num, total){
-  var num = addedUp;
-  if(num < total){
-    return true;
-  }else{
-    return false;
-  }
-}
-console.log(totalUnderWhatFor(numberArray, 20));
+console.log(totalUnderWhatFor(numArr, 6));
+
+
+
 
 
 /*Function - checkTrueValues
