@@ -51,7 +51,7 @@ Write a function that takes a single String parameter called action. If the valu
 
 
 /*Function - isNumberGreaterThan
-Write a function that takes two variables of type Number called first and second respectively. Return true if the first number is greater than the second.*/
+Write a function that takes two parameters of type Number called first and second respectively. Return true if the first number is greater than the second.*/
 
 
 
